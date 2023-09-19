@@ -7,14 +7,19 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Hello World");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey("space"))
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector3(0,8,0);
+        }
+       
+
     }
-    ontr
+    
 
 }
