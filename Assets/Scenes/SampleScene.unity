@@ -370,6 +370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   jumpNum: 14
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!95 &1251718024
 Animator:
   serializedVersion: 4
@@ -450,7 +453,7 @@ GameObject:
   - component: {fileID: 1891640861}
   - component: {fileID: 1891640860}
   - component: {fileID: 1891640859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
